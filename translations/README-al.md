@@ -2,32 +2,30 @@
 
 - Versioni origjinal: [Anglisht](README.md)
 
-> I originally created this as a short to-do list of study topics for becoming a software engineer,
-> I originally created this as a short to-do list of study topics for becoming a software engineer,
-> but it grew to the large list you see today. After going through this study plan, [I got hired
-> as a Software Development Engineer at Amazon](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!
-> You probably won't have to study as much as I did. Anyway, everything you need is here.
+> Unë e krijova këtë listë gjërash për të studiuar mënyrat e inxhinieri software të vërtetë,
+> por lista u rrit dhe u bë ajo që shihni sot. Pasi kryeva këtë plan studimi, [U punësova si
+> Inxhinier Zhvillimi Software tek Amazon (anglisht)](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!
+> Ndoshta ty të duhet më pak kohë se unë për të studiuar. Megjithatë, çdo gjë që ju duhet e keni këtu.
 >
-> I studied about 8-12 hours a day, for several months. This is my story: [Why I studied full-time for 8 months for a Google interview](https://medium.freecodecamp.org/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
+> Kam studiuar nga 8 deri në 12 orë në ditë, për disa muaj me radhë. Kjo është historia ime: [Si studiova për 8 muaj për një intervistë tek Google (anglisht)](https://medium.freecodecamp.org/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
 >
-> The items listed here will prepare you well for an interview at just about any software company,
-> including the giants: Amazon, Facebook, Google or Microsoft.
+> Temat e listuara më poshtë do ju përgatisin mirë për një intervistë tek çdo lloj kompanie software e mundshme,
+> përfshi dhe gjigandët: Amazon, Facebook, Google ose Microsoft.
 >
-> *Best of luck to you!*
+> *Ju uroj shumë fat!*
 
 <details>
-<summary>Translations:</summary>
+<summary>Përkthimet:</summary>
 
 - [中文版本](translations/README-cn.md)
 - [Tiếng Việt - Vietnamese](translations/README-vi.md)
 - [Español](translations/README-es.md)
 - [Português Brasileiro](translations/README-ptbr.md)
-- [Albanian](translations/README-al.md)
 
 </details>
 
 <details>
-<summary>Translations in progress:</summary>
+<summary>Përkthimet në punë e sipër:</summary>
 
 - [हिन्दी](https://github.com/jwasham/coding-interview-university/issues/81)
 - [עברית](https://github.com/jwasham/coding-interview-university/issues/82)
@@ -50,20 +48,22 @@
 
 </details>
 
-## What is it?
+## Për çfarë bëhet fjalë?
 
 This is my multi-month study plan for going from web developer (self-taught, no CS degree) to software engineer for a large company.
+Ky është plani im disa mujor i studimit sesi kalova nga një zhvillues web (autodidakt, pa diplomë në shkenca kompjuterike) në një inxhinier software në kompani të madhe.
 
-![Coding at the whiteboard - from HBO's Silicon Valley](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
+![Kodimi në tabelë të bardhë - nga seriali "Silicon Valley" i HBO](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
 
-This is meant for **new software engineers** or those switching from
-software/web development to software engineering (where computer science knowledge is required). If you have
-many years of experience and are claiming many years of software engineering experience, expect a harder interview.
+Ky plan është për ata **inxhinierët e rinj software** ose ata që duan të kalojnë nga
+fusha e zhvillimit software/web tek inxhinieri software (ku dijet në shkencat kompjuterike janë të nevojshme). Në qoftë se ke
+shumë vite eksperiencë në inxhinierim software apo pretendon se ke, duhet të presësh një intervistë më të vështirë.
 
-If you have many years of software/web development experience, note that large software companies like Google, Amazon,
-Facebook and Microsoft view software engineering as different from software/web development, and they require computer science knowledge.
 
-If you want to be a reliability engineer or operations engineer, study more from the optional list (networking, security).
+Nëse ke shumë vite eksperience në zhvillim software/web, duhet të kesh parasysh se kompani të mëdha software si Google, Amazon,
+Facebook dhe Microsoft e shohin inxhinierinë software ndryshe nga zhvillimi software apo web, si rrjedhojë kërkojnë njohuri në shkenca kompjuterike.
+
+Nëse do të bëhesh një inxhinier rrjeti ose sigurie, shiko nga lista opsionale  (rrjetat, sigurie).
 
 ---
 
