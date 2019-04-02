@@ -69,7 +69,7 @@ Nëse do të bëhesh një inxhinier rrjeti ose sigurie, shiko nga lista opsional
 
 ## Përmbajtja
 
-- [Çfarë është kjo?](#cfare-eshte-kjo)
+- [Çfarë është kjo?](#cfarë-është-kjo)
 - [Pse duhet ta përdor?](#pse-duhet-ta-perdor)
 - [Si ta përdor?](#si-ta-perdor)
 - [Mos u ndje keq nëse ndihesh se nuk je mjaftueshëm i zgjuar.](#mos-u-ndje-keq-pse-jo-mjaftueshem-zgjuar)
