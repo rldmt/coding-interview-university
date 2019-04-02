@@ -139,51 +139,51 @@ Nëse do të bëhesh një inxhinier rrjeti ose sigurie, shiko nga lista opsional
 ---------------- Çdo gjë më poshtë është opsionale ----------------
 
 <details>
-<summary>Additional Resources</summary>
+<summary>Burime Shtesë</summary>
 
-- [Additional Books](#additional-books)
-- [Additional Learning](#additional-learning)
-    - [Compilers](#compilers)
-    - [Emacs and vi(m)](#emacs-and-vim)
-    - [Unix command line tools](#unix-command-line-tools)
-    - [Information theory](#information-theory-videos)
-    - [Parity & Hamming Code](#parity--hamming-code-videos)
-    - [Entropy](#entropy)
-    - [Cryptography](#cryptography)
-    - [Compression](#compression)
-    - [Computer Security](#computer-security)
+- [Libra Shtesë](#libra-shtese)
+- [Tema Shtesë](#tema-shtese)
+    - [Kompilatorët](#kompilatoret)
+    - [Emacs dhe vi(m)](#emacs-dhe-vim)
+    - [Mjetet e komandava në Unix](#komanda-unix)
+    - [Teori informacioni](#video-teori-informacioni)
+    - [Kodet Hamming dhe Paritetit](#kodet-paritetit--hamming-videos)
+    - [Entropia](#entropia)
+    - [Kriptografia](#kriptografia)
+    - [Kompresioni](#kompresioni)
+    - [Siguria Kompjuterike](#siguria-kompjuterike)
     - [Garbage collection](#garbage-collection)
-    - [Parallel Programming](#parallel-programming)
-    - [Messaging, Serialization, and Queueing Systems](#messaging-serialization-and-queueing-systems)
+    - [Programim paralel](#programim-paralel)
+    - [Dergim mesazhesh, Serializimet, dhe Radhitje (Queueing) Sistemesh](#dergim-mesazhesh-serializim-dhe-radhitje-sistemesh)
     - [A*](#a)
-    - [Fast Fourier Transform](#fast-fourier-transform)
-    - [Bloom Filter](#bloom-filter)
+    - [Transformimet e Shpejta Fourier](#transformimet-shpejta-fourier)
+    - [Filtri Bloom](#filtri-bloom)
     - [HyperLogLog](#hyperloglog)
     - [Locality-Sensitive Hashing](#locality-sensitive-hashing)
-    - [van Emde Boas Trees](#van-emde-boas-trees)
-    - [Augmented Data Structures](#augmented-data-structures)
-    - [Balanced search trees](#balanced-search-trees)
-        - AVL trees
-        - Splay trees
-        - Red/black trees
-        - 2-3 search trees
-        - 2-3-4 Trees (aka 2-4 trees)
-        - N-ary (K-ary, M-ary) trees
-        - B-Trees
-    - [k-D Trees](#k-d-trees)
-    - [Skip lists](#skip-lists)
-    - [Network Flows](#network-flows)
+    - [Pemët van Emde Boas](#pemet-van-emde-boas)
+    - [Struktura të dhënash të zgjeruara](#struktura-dhenash-zgjeruara)
+    - [Kërkimi Binar i Pemëve i Balancuar](#kerkimi-binar-peme-balancuar)
+        - Pemët AVL
+        - Pemët Splay
+        - Pemët kuq e zi
+        - Kërkimi në pemë 2-3
+        - Kërkimi në pemë 2-3-4 (ndryshe 2-4 pemë)
+        - Pemët me kërkim N (K, M)
+        - Pemët B
+    - [Pemët k-D](#pemet-k-d)
+    - [Listat me kapërcim](#listat-me-kapercim)
+    - [Rrugët nëpër rrjeta](#rrjeta-rruget)
     - [Disjoint Sets & Union Find](#disjoint-sets--union-find)
-    - [Math for Fast Processing](#math-for-fast-processing)
+    - [Matematika pas Procesimit të shpejtë](#matematika-pas-procesimit-te-shpejte)
     - [Treap](#treap)
-    - [Linear Programming](#linear-programming-videos)
-    - [Geometry, Convex hull](#geometry-convex-hull-videos)
-    - [Discrete math](#discrete-math)
-    - [Machine Learning](#machine-learning)
-- [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
-- [Video Series](#video-series)
-- [Computer Science Courses](#computer-science-courses)
-- [Papers](#papers)
+    - [Programim Linear](#programim-linear-video)
+    - [Gjeometri, Luget konvekse](#gjeometri-luge-konvekse-videos)
+    - [Matematike diskrete](#matematike-diskrete)
+    - [Të mësuarit makinë](#mesuarit-makine)
+- [Detaje shtesë rreth disa subjekteve](#detaje-shtese-rreth-disa-subjekteve)
+- [Video të ndryshme](#video-te-ndryshme)
+- [Kurse në shkenca kompjuterike](#kurse-shkenca-kompjuterike)
+- [Disertacione](#disertacione)
 
 </details>
 
