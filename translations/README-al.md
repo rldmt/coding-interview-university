@@ -50,7 +50,6 @@
 
 ## Për çfarë bëhet fjalë?
 
-This is my multi-month study plan for going from web developer (self-taught, no CS degree) to software engineer for a large company.
 Ky është plani im disa mujor i studimit sesi kalova nga një zhvillues web (autodidakt, pa diplomë në shkenca kompjuterike) në një inxhinier software në kompani të madhe.
 
 ![Kodimi në tabelë të bardhë - nga seriali "Silicon Valley" i HBO](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
@@ -67,76 +66,77 @@ Nëse do të bëhesh një inxhinier rrjeti ose sigurie, shiko nga lista opsional
 
 ---
 
-## Table of Contents
 
-- [What is it?](#what-is-it)
-- [Why use it?](#why-use-it)
-- [How to use it](#how-to-use-it)
-- [Don't feel you aren't smart enough](#dont-feel-you-arent-smart-enough)
-- [About Video Resources](#about-video-resources)
-- [Interview Process & General Interview Prep](#interview-process--general-interview-prep)
-- [Pick One Language for the Interview](#pick-one-language-for-the-interview)
-- [Book List](#book-list)
-- [Before you Get Started](#before-you-get-started)
-- [What you Won't See Covered](#what-you-wont-see-covered)
-- [Prerequisite Knowledge](#prerequisite-knowledge)
-- [The Daily Plan](#the-daily-plan)
-- [Algorithmic complexity / Big-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)
-- [Data Structures](#data-structures)
-    - [Arrays](#arrays)
-    - [Linked Lists](#linked-lists)
-    - [Stack](#stack)
-    - [Queue](#queue)
-    - [Hash table](#hash-table)
-- [More Knowledge](#more-knowledge)
-    - [Binary search](#binary-search)
-    - [Bitwise operations](#bitwise-operations)
-- [Trees](#trees)
-    - [Trees - Notes & Background](#trees---notes--background)
-    - [Binary search trees: BSTs](#binary-search-trees-bsts)
-    - [Heap / Priority Queue / Binary Heap](#heap--priority-queue--binary-heap)
-    - balanced search trees (general concept, not details)
-    - traversals: preorder, inorder, postorder, BFS, DFS
-- [Sorting](#sorting)
-    - selection
-    - insertion
+## Përmbajtja
+
+- [Çfarë është kjo?](#cfare-eshte-kjo)
+- [Pse duhet ta përdor?](#pse-duhet-ta-perdor)
+- [Si ta përdor?](#si-ta-perdor)
+- [Mos u ndje keq nëse ndihesh se nuk je mjaftueshëm i zgjuar.](#mos-u-ndje-keq-pse-jo-mjaftueshem-zgjuar)
+- [Rreth videove.](#rreth-videove)
+- [Proçesi i intervistës dhe përgatitja për të.](#procesi-intervistes-pergatitja)
+- [Zgjidh një gjuhëw programimi për intervistën](#zgjidh-nje-gjuhe-programimi)
+- [Lista e librave](#lista-librave)
+- [Përpara se të fillosh](#perpara-se-te-fillosh)
+- [Çfarë nuk do mbulojë ky plan](#cfare-nuk-do-mbuloje-plani)
+- [Njohuri Paraprake](#njohuri-paraprake)
+- [Plani Ditor](#plani-ditor)
+- [Kompleksiteti algoritmik / Big-O / Analiza asimptotike](#kompleksiteti-algoritmik--big-o--analiza-asimptotike)
+- [Struktura e të Dhënave](#struktura-te-dhenave)
+    - [Vektoret](#vektoret)
+    - [Listat e lidhura](#listat-e-lidhura)
+    - [Stivat](#stivat)
+    - [Radhët](#radhet)
+    - [Tabelat hash](#tabelat-hash)
+- [Më shumë njohuri](#me-shume-njohuri)
+    - [Kërkimi binar](#kerkimi-binar)
+    - [Veprime bitwise](#veprime-bitwise)
+- [Pemët](#pemet)
+    - [Pemët - Shënime dhe Baza](#pemet---shenime--baza)
+    - [Kërkimi binar në pemë: KBP](#kerkimi-binar-peme-kbp)
+    - [Stivat / Radhët me prioritet / Stivat Binare](#stivat--radhet-prioritare--stivat-binare)
+    - pemët këkuese të balancuara (koncepte të përgjithsme, pa shumë detaje)
+    - traversalet: preorder, inorder, postorder, BFS, DFS
+- [Sortimi](#sortimi)
+    - selektim
+    - insertimi
     - heapsort
     - quicksort
     - merge sort
-- [Graphs](#graphs)
-    - directed
-    - undirected
-    - adjacency matrix
-    - adjacency list
-    - traversals: BFS, DFS
-- [Even More Knowledge](#even-more-knowledge)
-    - [Recursion](#recursion)
-    - [Dynamic Programming](#dynamic-programming)
-    - [Object-Oriented Programming](#object-oriented-programming)
-    - [Design Patterns](#design-patterns)
-    - [Combinatorics (n choose k) & Probability](#combinatorics-n-choose-k--probability)
-    - [NP, NP-Complete and Approximation Algorithms](#np-np-complete-and-approximation-algorithms)
-    - [Caches](#caches)
-    - [Processes and Threads](#processes-and-threads)
-    - [Testing](#testing)
-    - [Scheduling](#scheduling)
-    - [String searching & manipulations](#string-searching--manipulations)
-    - [Tries](#tries)
-    - [Floating Point Numbers](#floating-point-numbers)
+- [Grafet](#grafet)
+    - të drejtuara
+    - të padrejtuara
+    - matricat paralele
+    - listat paralele
+    - traversalet: BFS, DFS
+- [Më shumë njohuri](#me-shume-njohuri)
+    - [Rekursioni](#rekursioni)
+    - [Programimi dinamik](#programimi-dinamik)
+    - [Programimi i orientuar me objekte](#programim-orientuar-me-objekte)
+    - [Paterna Dizenjimi](#paterna-dizenjimi)
+    - [Kombinatorika (n mbi k) dhe Probabiliteti](#kombinatorika-n-mbi-k--probabiliteti)
+    - [NP, NP-e Plotë dhe Algoritme Rrumbullakosje](#np-np-e-plote-dhe-algoritma-rrumbullakosje)
+    - [Cache-të](#cashes)
+    - [Proçeset dhe Threadet](#proceset-dhe-threadet)
+    - [Testimi](#testimi)
+    - [Skedulimi](#skedulimi)
+    - [Kërkimi dhe manipulimi i stringjeve](#kerkimi-manipulimi--stringjeve)
+    - [Provat](#provat)
+    - [Numrat Float me presje dhjetore](#numra-presje-dhjetore)
     - [Unicode](#unicode)
-    - [Endianness](#endianness)
-- [Networking](#networking)
-- [System Design, Scalability, Data Handling](#system-design-scalability-data-handling) (if you have 4+ years experience)
-- [Final Review](#final-review)
-- [Coding Question Practice](#coding-question-practice)
-- [Coding exercises/challenges](#coding-exerciseschallenges)
-- [Once you're closer to the interview](#once-youre-closer-to-the-interview)
-- [Your Resume](#your-resume)
-- [Be thinking of for when the interview comes](#be-thinking-of-for-when-the-interview-comes)
-- [Have questions for the interviewer](#have-questions-for-the-interviewer)
-- [Once You've Got The Job](#once-youve-got-the-job)
+    - [Skajet (Endianness)](#skajet-endianness)
+- [Rrjetat](#rrjetat)
+- [Dizenjim Sistemesh, Skalabiliteti, Përdorimi i të dhënave](#dizenjim-sistemesh-skalabilitet-perpunim-te-dhenash) (nëse ke mbi 4 vjet eksperiencë)
+- [Rishikimi i fundit](#rishikimi-fundit)
+- [Pyetje rreth Praktikave të Kodimit](#pyetje-praktika-kodimi)
+- [Ushtrime Kodimi](#ushtrime-kodimi)
+- [Kur je afër intervistës](#kur-je-afer-intervistes)
+- [Jetëshkrimi Juaj](#jeteshkrimi-juaj)
+- [Mendime përpara intervistës](#mendime-para-intervistes)
+- [Pyetjet që duhet t'i bëni intervistuesit](#pyetje-intervistuesit)
+- [Pasi je pranuar në punë](#pasi-je-pranuar-ne-pune)
 
----------------- Everything below this point is optional ----------------
+---------------- Çdo gjë më poshtë është opsionale ----------------
 
 <details>
 <summary>Additional Resources</summary>
