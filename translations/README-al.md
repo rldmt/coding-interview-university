@@ -48,7 +48,7 @@
 
 </details>
 
-## Për çfarë bëhet fjalë?
+## Çfarë është kjo?
 
 Ky është plani im disa mujor i studimit sesi kalova nga një zhvillues web (autodidakt, pa diplomë në shkenca kompjuterike) në një inxhinier software në kompani të madhe.
 
