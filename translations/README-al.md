@@ -94,7 +94,7 @@ Nëse do të bëhesh një inxhinier rrjeti ose sigurie, shiko nga lista opsional
 - [Pemët](#pemet)
     - [Pemët - Shënime dhe Baza](#pemet---shenime--baza)
     - [Kërkimi binar në pemë: KBP](#kerkimi-binar-peme-kbp)
-    - [Shkurret / Radhët me prioritet / Stivat Shkurret](#shkurret--radhet-prioritare--shkurret-binare)
+    - [Shkurret / Radhët me prioritet / Shkurret Binare](#shkurret--radhet-prioritare--shkurret-binare)
     - pemët këkuese të balancuara (koncepte të përgjithsme, pa shumë detaje)
     - traversalet: preorder, inorder, postorder, BFS, DFS
 - [Sortimi](#sortimi)
