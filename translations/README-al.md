@@ -189,30 +189,30 @@ Nëse do të bëhesh një inxhinier rrjeti ose sigurie, shiko nga lista opsional
 
 ---
 
-## Why use it?
+## Pse duhet ta përdor?
 
-When I started this project, I didn't know a stack from a heap, didn't know Big-O anything, anything about trees, or how to
-traverse a graph. If I had to code a sorting algorithm, I can tell ya it wouldn't have been very good.
-Every data structure I've ever used was built into the language, and I didn't know how they worked
-under the hood at all. I've never had to manage memory unless a process I was running would give an "out of
-memory" error, and then I'd have to find a workaround. I've used a few multidimensional arrays in my life and
-thousands of associative arrays, but I've never created data structures from scratch.
+Kur e fillova këtë projekt, nuk e dija dallimin mes stivës dhe shkurres, nuk dija asgjë rreth Big-O, asgjë rreth pemëve , apo 
+se si të shëtisim një graf. Nëse duhet kodoja një algoritëm sortimi, mund t'ju them se nuk isha shumë i mirë.
+Çdo strukturë të dhëne që kisha përdorur ishte e ndërtuar brenda në gjuhën e programimit në të cilën po punoja, dhe nuk 
+dija bazat pas këtyre strukturave. Nuk më është dashur asnjëherë të menaxhoj memorien, përjashtim ishin vetëm ato raste kur më
+dilte "error" i tipit "out of memory". Zakonisht gjeja një rrugëdalje duke bërë "fashime" të këtyre problemeve. Kam përdorur 
+vektorë multidimensionalë gjatë karrierës sime dhe me mijra vektorë asociativë, por kurrë të krijoj një të tillë nga fillimi. 
 
-It's a long plan. It may take you months. If you are familiar with a lot of this already it will take you a lot less time.
+Plani është i madh. Do të kërkojë disa muaj kohë. Nëse je familiar me shumë nga temat e përmendura atëherë mund t'ju duhet më pak kohë.
 
-## How to use it
+## Si ta përdor?
 
 <details>
-<summary>How to use it</summary>
+<summary>Si ta përdor?</summary>
 
-Everything below is an outline, and you should tackle the items in order from top to bottom.
+Çdo gjë më poshtë është një përmbledhje, dhe këshillohet të merren temat me radhë nga fillimi në fund.
 
-I'm using Github's special markdown flavor, including tasks lists to check progress.
+Aktualisht është vënë në punë funksioni markdown i Github-it, përfshirë dhe detyrat individuale për të kontrolluar progresin e kryer.
 
-**Create a new branch so you can check items like this, just put an x in the brackets: [x]**
+**Krijo një branch të ri që të shikosh temat individuale. Ato tema që kryhen vendosi një x në kllapa katrore: [x]**
 
 
-    Fork a branch and follow the commands below
+    Fork një branch dhe më pas ndiq komandat e mëposhtme
 
 `git checkout -b progress`
 
@@ -220,7 +220,7 @@ I'm using Github's special markdown flavor, including tasks lists to check progr
 
 `git fetch --all`
 
-    Mark all boxes with X after you completed your changes
+    Bëj me X kutitë pasi ke bërë ndryshimet e tua
 
 `git add . `
 
@@ -230,7 +230,7 @@ I'm using Github's special markdown flavor, including tasks lists to check progr
 
 `git push --force `
 
-[More about Github-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
+[Më shumë rreth funksionalitetit markdown të Github-it](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
 </details>
 
