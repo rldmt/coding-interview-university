@@ -72,7 +72,7 @@ Nëse do të bëhesh një inxhinier rrjeti ose sigurie, shiko nga lista opsional
 - [Çfarë është kjo?](#çfarë-është-kjo)
 - [Pse duhet ta përdor?](#pse-duhet-ta-përdor)
 - [Si ta përdor?](#si-ta-përdor)
-- [Mos u ndje keq nëse ndihesh se nuk je mjaftueshëm i zgjuar.](#mos-u-ndje-keq-nëse-ndihesh-se-nuk-je-mjaftueshëm-i-zgjuar)
+- [Mos u ndje keq nëse ndihesh se nuk je mjaftueshëm i zgjuar](#mos-u-ndje-keq-nëse-ndihesh-se-nuk-je-mjaftueshëm-i-zgjuar)
 - [Rreth videove.](#rreth-videove)
 - [Proçesi i intervistës dhe përgatitja për të.](#proçesi-i-intervistës-dhe-pëçrgatitja-për-të)
 - [Zgjidh një gjuhë programimi për intervistën](#zgjidh-një-gjuhë-programimi-për-intervistën)
@@ -154,7 +154,7 @@ Nëse do të bëhesh një inxhinier rrjeti ose sigurie, shiko nga lista opsional
     - [Siguria Kompjuterike](#siguria-kompjuterike)
     - [Garbage collection](#garbage-collection)
     - [Programim paralel](#programim-paralel)
-    - [Dergim mesazhesh, Serializimet, dhe Radhitje (Queueing) Sistemesh](#ërgim-mesazhesh-serializim-dhe-radhitje-sistemesh)
+    - [Dergim mesazhesh, Serializimet, dhe Radhitje (Queueing) Sistemesh](#dërgim-mesazhesh-serializim-dhe-radhitje-sistemesh)
     - [A*](#a)
     - [Transformimet e Shpejta Fourier](#transformimet-e-shpejta-fourier)
     - [Filtri Bloom](#filtri-bloom)
@@ -234,20 +234,20 @@ Aktualisht është vënë në punë funksioni markdown i Github-it, përfshirë 
 
 </details>
 
-## Don't feel you aren't smart enough
-- Successful software engineers are smart, but many have an insecurity that they aren't smart enough.
+## Mos u ndje keq nëse ndihesh se nuk je mjaftueshëm i zgjuar
+- Inxhinierwwt e suksesshëm software janë të zotë, por edhe ata kanë pasiguritë e tyrë nëse kanë dije mjaftueshëm. Successful software engineers are smart, but many have an insecurity that they aren't smart enough.
 - [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
 - [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 - [Believe you can change](http://www.aaronsw.com/weblog/dweck)
 - [Think you're not smart enough to work at Google? Well, think again](https://www.youtube.com/watch?v=uPOJ1PR50ag)
 
-## About Video Resources
+## Rreth materialeve video shtesë
 
-Some videos are available only by enrolling in a Coursera or EdX class. These are called MOOCs.
-Sometimes the classes are not in session so you have to wait a couple of months, so you have no access.
-
-    I'd appreciate your help to add free and always-available public sources, such as YouTube videos to accompany the online course videos.
-    I like using university lectures.
+Disa nga videot sigurohen vetëm duke u regjistruar në kurset Coursera ose EdX. Këto shërbime quhen MOOC ose Massive Open Online Courses.
+Ndonjëherë nuk janë për një periudhë të caktuar dhe duhet të presësh disa javë derisa ato të dalin.
+    
+    Do e vlerësoja në qoftë se do sugjeroni burime shtesë që janë falas, si video nga Youtube për t'ua bashkëngjitur videove të kurseve
+    Unë preferoj video nga leksionet universitare. 
 
 
 ## Interview Process & General Interview Prep
@@ -257,7 +257,7 @@ Sometimes the classes are not in session so you have to wait a couple of months,
 
 - [ ] [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
 - [ ] [Whiteboarding](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
-- [ ] [Effective Whiteboarding during Programming Interviews](http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/)
+- [ ] [Effective Whiteboarding during Programming Interviews](http://ëw.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/)
 - [ ] [Demystifying Tech Recruiting](https://www.youtube.com/watch?v=N233T0epWTs)
 - [ ] Cracking The Coding Interview Set 1:
     - [ ] [Gayle L McDowell - Cracking The Coding Interview (video)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
