@@ -235,7 +235,7 @@ Aktualisht është vënë në punë funksioni markdown i Github-it, përfshirë 
 </details>
 
 ## Mos u ndje keq nëse ndihesh se nuk je mjaftueshëm i zgjuar
-- Inxhinierwwt e suksesshëm software janë të zotë, por edhe ata kanë pasiguritë e tyrë nëse kanë dije mjaftueshëm. Successful software engineers are smart, but many have an insecurity that they aren't smart enough.
+- Inxhinierët e suksesshëm software janë të zotë, por edhe ata kanë pasiguritë e tyrë nëse kanë dije mjaftueshëm.
 - [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
 - [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 - [Believe you can change](http://www.aaronsw.com/weblog/dweck)
