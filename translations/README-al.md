@@ -73,7 +73,7 @@ Nëse do të bëhesh një inxhinier rrjeti ose sigurie, shiko nga lista opsional
 - [Pse duhet ta përdor?](#pse-duhet-ta-përdor)
 - [Si ta përdor?](#si-ta-përdor)
 - [Mos u ndje keq nëse ndihesh se nuk je mjaftueshëm i zgjuar](#mos-u-ndje-keq-nëse-ndihesh-se-nuk-je-mjaftueshëm-i-zgjuar)
-- [Rreth videove.](#rreth-videove)
+- [Rreth videove.](#rreth-materialeve-video-shtesë)
 - [Proçesi i intervistës dhe përgatitja për të.](#proçesi-i-intervistës-dhe-pëçrgatitja-për-të)
 - [Zgjidh një gjuhë programimi për intervistën](#zgjidh-një-gjuhë-programimi-për-intervistën)
 - [Lista e librave](#lista-e-librave)
