@@ -374,7 +374,7 @@ Nqs ke sugjerime më të mira për C++, më thuaj.
 <details>
 <summary>Java</summary>
 
-- [ ] [Algorithms (Sedgewick and Wayne)](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/)
+- [ ] [Algorithms (Sedgewick dhe Wayne)](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/)
     - videos with book content (and Sedgewick!) on coursera:
         - [Algorithms I](https://www.coursera.org/learn/algorithms-part1)
         - [Algorithms II](https://www.coursera.org/learn/algorithms-part2)
@@ -402,54 +402,51 @@ OSE:
 </details>
 
 
-## Before you Get Started
+## Përpara se të fillosh
 
-This list grew over many months, and yes, it kind of got out of hand.
+Kjo listë u shtua pas disa muajsh punë, prandaj është kaq e madhe.
 
-Here are some mistakes I made so you'll have a better experience.
+Këtu janë disa nga gabimet që kam bërë rrugës dhe ti mund të mësosh nga këto.
 
-### 1. You Won't Remember it All
+### 1. Nuk do i mbash mend të gjitha
 
-I watched hours of videos and took copious notes, and months later there was much I didn't remember. I spent 3 days going
-through my notes and making flashcards so I could review.
+Kam shikuar me qindra orë video kam mbajtur shënime, dhe muajt e fundit nuk i mbaja mend ato që kisha mësuar në fillim. Kam shpenzuar 3 ditë kohë duke kaluar mes shënimeve të mia që të kisha një pamje të përgjithshme. 
 
-Read please so you won't make my mistakes:
+Të lutem lexoji këto këshilla që të mos përsërisësh gabimet e mia: 
 
 [Retaining Computer Science Knowledge](https://startupnextdoor.com/retaining-computer-science-knowledge/)
 
-### 2. Use Flashcards
+### 2. Përdor blloqe të vogla shënimesh. (flashcards)
 
-To solve the problem, I made a little flashcards site where I could add flashcards of 2 types: general and code.
-Each card has different formatting.
+Për të zgjidhur këtë problem, krijova një website të vogël pë flashcardss ku ruaja flashcard të dy tipeve: të përgjithshme dhe kodim. 
+Secili tip ka formatimin e vet.
 
-I made a mobile-first website so I could review on my phone and tablet, wherever I am.
+Krijova versionin mobile të websitet që ti kisha në çdo kohë me vete. 
 
-Make your own for free:
+Krijo tëndin falas:
 
-- [Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
-- [My flash cards database (old - 1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db):
-- [My flash cards database (new - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham-extreme.db):
+- [Repozitori i websitet flashcard](https://github.com/jwasham/computer-science-flash-cards)
+- [Databaza ime me flashcard (e vjetra - 1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db):
+- [Databaza ime me flashcard (e reja - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham-extreme.db):
 
-Keep in mind I went overboard and have cards covering everything from assembly language and Python trivia to machine learning and statistics. It's way too much for what's required.
+Ki parasysh se unë mora shumë seç duhet shënime, që nga gjuha assembly deri tek mbajtja e fakteve të gjuhës Python rreth të mësuarit makinë dhe statistikat.
 
-**Note on flashcards:** The first time you recognize you know the answer, don't mark it as known. You have to see the
-same card and answer it several times correctly before you really know it. Repetition will put that knowledge deeper in
-your brain.
+**Shënim mbi flashcard-at:** Hera e parë që e ti e kupton se e gjetur zgjidhjen mos e shëno si të zgjidhur. Shikoje disa herë dhe përgjigju disa herë përgjigjes derisa ti ta fiksosh. Përsëritja është nëna e dijes dhe kjo do e ngulisë në mendjen tënde.
 
-An alternative to using my flashcard site is [Anki](http://ankisrs.net/), which has been recommended to me numerous times. It uses a repetition system to help you remember.
-It's user-friendly, available on all platforms and has a cloud sync system. It costs $25 on iOS but is free on other platforms.
+Një alternativë ndaj websitet tim të flashcard është është [Anki](http://ankisrs.net/), të cilën ma kanë rekomanduar shumë veta. Përdor një sistem përsëritje që do ju ndihmojë. 
+Është user-friendly, i gatshëm në të gjitha platformat dhe sinkronizim me cloud. Kushton 25 dollar në iOS por është falas në platformat e tjera. 
 
-My flashcard database in Anki format: https://ankiweb.net/shared/info/25173560 (thanks [@xiewenya](https://github.com/xiewenya))
+Databaza ime në Anki format: https://ankiweb.net/shared/info/25173560 (thanks [@xiewenya](https://github.com/xiewenya))
 
-### 3. Review, review, review
+### 3. Rishiko, rishiko, rishiko
 
-I keep a set of cheat sheets on ASCII, OSI stack, Big-O notations, and more. I study them when I have some spare time.
+Mbaj disa blloqë të vogla me gjerat e përigjthshme mbi ASCII, OSI stack, Big-O notations, dhe më shumë. I studioj ato kur kam kohë të lirë.
 
-Take a break from programming problems for a half hour and go through your flashcards.
+Ndalo pak me programimin rreth gjysmë ore dhe rishiko flashcardet. 
 
-### 4. Focus
+### 4. Fokusohu
 
-There are a lot of distractions that can take up valuable time. Focus and concentration are hard.
+Ka shumë shpërqëndrime në ditë që mund t'ju marrin kohë të vlefshme. Prandaj është e vështirë të fokusohesh. 
 
 ## What you won't see covered
 
