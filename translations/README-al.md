@@ -297,11 +297,11 @@ Lexo më shumë mbi alternativat:
 
 Ju mund të shikoni disa materiale nga C, C++, dhe Python të përfshira më poshtë, kjo sepse unë po i mësoj. Janë disa libra për këto, shiko më poshtë.
 
-## Book List
+## Lista e librave
 
-This is a shorter list than what I used. This is abbreviated to save you time.
+Kjo është një listë e reduktuar e atyre librave që kam përdorur. Do ju marrë më pak kohë.
 
-### Interview Prep
+### Përgatitja për intervistën (ang.)
 
 - [ ] [Programming Interviews Exposed: Coding Your Way Through the Interview, 4nd Edition](https://www.amazon.com/Programming-Interviews-Exposed-Through-Interview/dp/111941847X/)
     - answers in C++ and Java
@@ -311,23 +311,23 @@ This is a shorter list than what I used. This is abbreviated to save you time.
     - answers in Java
 
 <details>
-<summary>If you have tons of extra time:</summary>
+<summary>Nëse ke kohë ekstra:</summary>
 
-Choose one:
+Zgjidh një nga këto:
 
-- [ ] [Elements of Programming Interviews (C++ version)](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
-- [ ] Elements of Programming Interviews (Java version)
+- [ ] [Elementë të programimit në C++.](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
+- [ ] Elementë të intervistave të programimit në  Java version
     - [book](https://www.amazon.com/Elements-Programming-Interviews-Java-Insiders/dp/1517435803/)
     - [Companion Project - Method Stub and Test Cases for Every Problem in the Book](https://github.com/gardncl/elements-of-programming-interviews)
 
 </details>
 
-### Computer Architecture
+### Arkitektura kompjuterike
 
 - [ ] [Write Great Code: Volume 1: Understanding the Machine](https://www.amazon.com/Write-Great-Code-Understanding-Machine/dp/1593270038)
-    - The book was published in 2004, and is somewhat outdated, but it's a terrific resource for understanding a computer in brief.
-    - The author invented [HLA](https://en.wikipedia.org/wiki/High_Level_Assembly), so take mentions and examples in HLA with a grain of salt. Not widely used, but decent examples of what assembly looks like.
-    - These chapters are worth the read to give you a nice foundation:
+    - Ky libër u publikua në 2004, pak i vjetër si botim po mjaft i vlefshëm për një njohje të shpejtë të brendësisë së kompjuterit. 
+    - Autori ka shpikur [HLA](https://en.wikipedia.org/wiki/High_Level_Assembly), kështu që merrni me rezerva pjesët ku ai përmend HLA. Jo shumë i përdorur por me shembuj të mirë të gjuhës assembly. 
+    - Këto kapituj janë të dobishëm për tu lexuar pasi janë një bazë e mirë për tu nisur (ang. ):
       <details>
       <summary>......</summary>
 
@@ -344,28 +344,28 @@ Choose one:
       </details>
 
 
-### Language Specific
+### Për gjuhën specifike
 
-**You need to choose a language for the interview (see above).**
+**Duhet të zgjedhësh gjuhën e programimit për intervistën (shiko sipër).**
 
-Here are my recommendations by language. I don't have resources for all languages. I welcome additions.
+Këto janë rekomandimet e mia sipas gjuhëve. Nuk i kam të gjitha njohuritë për të gjitha gjuhët. Mirëpres sugjerime. 
 
-If you read though one of these, you should have all the data structures and algorithms knowledge you'll need to start doing coding problems.
-**You can skip all the video lectures in this project**, unless you'd like a review.
+Nqs lexon nga këto, duhet të kesh ditur më parë strukturat e të dhënave dhe algoritmet nëse do fillosh me ushtrimet e kodimit.
+**Ti mund t'i ka kalosh leksionet video në këtë projekt**, vetëm nëse do t'i shtosh diçka vetë.
 
-[Additional language-specific resources here.](programming-language-resources.md)
+[Materiale shtesë për gjuhët këtu.](programming-language-resources.md)
 
 ### C++
 
 <details>
 <summary>C++</summary>
 
-I haven't read these two, but they are highly rated and written by Sedgewick. He's awesome.
+Nuk i kam lexuar por janë materiale shumë të vlerësuara, dhe janë shkruar nga Sedwick. Shumë i zoti.
 
 - [ ] [Algorithms in C++, Parts 1-4: Fundamentals, Data Structure, Sorting, Searching](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882/)
 - [ ] [Algorithms in C++ Part 5: Graph Algorithms](https://www.amazon.com/Algorithms-Part-Graph-3rd-Pt-5/dp/0201361183/)
 
-If you have a better recommendation for C++, please let me know. Looking for a comprehensive resource.
+Nqs ke sugjerime më të mira për C++, më thuaj.
 
 </details>
 
@@ -379,7 +379,7 @@ If you have a better recommendation for C++, please let me know. Looking for a c
         - [Algorithms I](https://www.coursera.org/learn/algorithms-part1)
         - [Algorithms II](https://www.coursera.org/learn/algorithms-part2)
 
-OR:
+OSE:
 
 - [ ] [Data Structures and Algorithms in Java](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
     - by Goodrich, Tamassia, Goldwasser
