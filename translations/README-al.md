@@ -74,7 +74,7 @@ Nëse do të bëhesh një inxhinier rrjeti ose sigurie, shiko nga lista opsional
 - [Si ta përdor?](#si-ta-përdor)
 - [Mos u ndje keq nëse ndihesh se nuk je mjaftueshëm i zgjuar](#mos-u-ndje-keq-nëse-ndihesh-se-nuk-je-mjaftueshëm-i-zgjuar)
 - [Rreth videove.](#rreth-materialeve-video-shtesë)
-- [Proçesi i intervistës dhe përgatitja për të.](#proçesi-i-intervistës-dhe-pëçrgatitja-për-të)
+- [Proçesi i intervistës dhe përgatitja për të.](#proçesi-i-intervistës-dhe-përgatitja-për-të)
 - [Zgjidh një gjuhë programimi për intervistën](#zgjidh-një-gjuhë-programimi-për-intervistën)
 - [Lista e librave](#lista-e-librave)
 - [Përpara se të fillosh](#përpara-se-të-fillosh)
@@ -250,14 +250,15 @@ Ndonjëherë nuk janë për një periudhë të caktuar dhe duhet të presësh di
     Unë preferoj video nga leksionet universitare. 
 
 
-## Interview Process & General Interview Prep
+## Proçesi i intervistës dhe përgatitja për të
 
 <details>
-<summary>Interview Process & General Interview Prep</summary>
+<summary>Proçesi i intervistës dhe përgatitja për të</summary>
+Këtë seksion po e lë ashtu sikur e ka autori në anglisht pasi përkthimi do humbiste kuptimin e saj.
 
 - [ ] [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
 - [ ] [Whiteboarding](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
-- [ ] [Effective Whiteboarding during Programming Interviews](http://ëw.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/)
+- [ ] [Effective Whiteboarding during Programming Interviews](http://www.coderust.com/blog/2014/04/10/effective-whiteboarding-during-programming-interviews/)
 - [ ] [Demystifying Tech Recruiting](https://www.youtube.com/watch?v=N233T0epWTs)
 - [ ] Cracking The Coding Interview Set 1:
     - [ ] [Gayle L McDowell - Cracking The Coding Interview (video)](https://www.youtube.com/watch?v=rEJzOhC5ZtQ)
