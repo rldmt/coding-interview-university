@@ -274,28 +274,28 @@ Këtë seksion po e lë ashtu sikur e ka autori në anglisht pasi përkthimi do 
 
 </details>
 
-## Pick One Language for the Interview
+## Zgjidh një gjuhë programimi për intervistën
 
-You can use a language you are comfortable in to do the coding part of the interview, but for large companies, these are solid choices:
+Ti mund të zgjedhësh një gjuhë në të cilën ti ndihesh komod dhe me atë kryej intervistën e punës. Megjithatë për kompani të mëdha këto janë më të përdorurat:
 
 - C++
 - Java
 - Python
 
-You could also use these, but read around first. There may be caveats:
+Ti mund të merresh edhe me këto, por duhet të shikosh se si ato ecin. Mund të ketë disa kleçka:
 
 - JavaScript
 - Ruby
 
-You need to be very comfortable in the language and be knowledgeable.
+Ti duhet të kesh njohuri të gjëra te gjuha e zgjedhur dhe jo me dije rrethanore.
 
-Read more about choices:
+Lexo më shumë mbi alternativat:
 - http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/
 - http://blog.codingforinterviews.com/best-programming-language-jobs/
 
-[See language resources here](programming-language-resources.md)
+[Më shumë rreth gjuhëve](programming-language-resources.md)
 
-You'll see some C, C++, and Python learning included below, because I'm learning. There are a few books involved, see the bottom.
+Ju mund të shikoni disa materiale nga C, C++, dhe Python të përfshira më poshtë, kjo sepse unë po i mësoj. Janë disa libra për këto, shiko më poshtë.
 
 ## Book List
 
