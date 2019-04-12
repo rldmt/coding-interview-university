@@ -506,7 +506,7 @@ Shkruaje kodin në tabelë të bardhë ose në letër, dhe jo në kompjuter. Pro
 
 </details>
 
-## Algorithmic complexity / Big-O / Asymptotic analysis
+## Kompleksiteti algoritmik / Big-O / Analiza asimptotike
 
 <details>
 <summary>Algorithmic complexity / Big-O / Asymptotic analysis</summary>
