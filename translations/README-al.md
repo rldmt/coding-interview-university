@@ -509,11 +509,11 @@ Shkruaje kodin në tabelë të bardhë ose në letër, dhe jo në kompjuter. Pro
 ## Kompleksiteti algoritmik / Big-O / Analiza asimptotike
 
 <details>
-<summary>Algorithmic complexity / Big-O / Asymptotic analysis</summary>
+<summary>Kompleksiteti algoritmik / Big-O / Analiza asimptotike</summary>
 
-- Nothing to implement
-- There are a lot of videos here. Just watch enough until you understand it. You can always come back and review.
-- If some of the lectures are too mathy, you can jump down to the bottom and watch the discrete mathematics videos to get the background knowledge.
+- Asgjë për tu implementuar
+- Ka shumë video këtu. Shiko derisa ta kuptosh atë. Gjithmonë mund të kthehesh mbrapa dhe ta rishikosh.
+- Nës2 disa nga leksionet kanë shumë matematikë brenda, mund të shikosh më poshtë rreth matematikës diskrete që të marrësh njohuri fillestare. (ang.)
 - [ ] [Harvard CS50 - Asymptotic Notation (video)](https://www.youtube.com/watch?v=iOq5kSKqeR4)
 - [ ] [Big O Notations (general quick tutorial) (video)](https://www.youtube.com/watch?v=V6mKVRU1evU)
 - [ ] [Big O Notation (and Omega and Theta) - best mathematical explanation (video)](https://www.youtube.com/watch?v=ei-A_wy5Yxw&index=2&list=PL1BaGV1cIH4UhkL8a9bJGG356covJ76qN)
