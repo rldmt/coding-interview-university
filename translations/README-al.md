@@ -448,43 +448,43 @@ Ndalo pak me programimin rreth gjysmë ore dhe rishiko flashcardet.
 
 Ka shumë shpërqëndrime në ditë që mund t'ju marrin kohë të vlefshme. Prandaj është e vështirë të fokusohesh. 
 
-## What you won't see covered
+## Çfarë nuk do mbulojë ky plan?
 
-These are prevalent technologies but not part of this study plan:
+Këto janë teknologji që gjenden kudo por nuk janë pjesë e këtij plani studimi:
 
 - SQL
 - Javascript
-- HTML, CSS, and other front-end technologies
+- HTML, CSS, dhe teknologji të tjera frontend
 
-## The Daily Plan
+## Plani ditor
 
-Some subjects take one day, and some will take multiple days. Some are just learning with nothing to implement.
+Disa subjekte kërkojnë një ditë, disa të tjera disa ditë. Disa janë thjesht për tu mësuar pa pasur nevojën për ti implementuar.
 
-Each day I take one subject from the list below, watch videos about that subject, and write an implementation in:
-- C - using structs and functions that take a struct * and something else as args.
-- C++ - without using built-in types
-- C++ - using built-in types, like STL's std::list for a linked list
-- Python - using built-in types (to keep practicing Python)
-- and write tests to ensure I'm doing it right, sometimes just using simple assert() statements
-- You may do Java or something else, this is just my thing.
+Çdo ditë marr në shqyrtim një nga subjektet e listuara më poshtë, shikoj videot rreth subjektit dhe shkruaj implementimin e tij në:
+- C - duke përdorur struct dhe funksionet duke marrë një struct * dhe diçka tjetër si argumenta.
+- C++ - pa përdorur tipet built-in
+- C++ - duke përdorur tipet built-in, si psh std::list për një listë të lidhur
+- Python - duke përodur tipet built-in (që të praktikoj Python-in)
+- shkruaj teste për tu siguruar se është e saktë ajo që po bëj, zakonisht duke përdorur rreshta të thjeshtë me assert()
+- Ti mund të preferosh Java ose gjë tjetër, kjo është mënyra ime.
 
-You don't need all these. You need only [one language for the interview](#pick-one-language-for-the-interview).
+Ty nuk të duhen të gjitha këto. Të duhet vetëm një gjuhë programimi për intervistën.[Zgjidh një gjuhë programimi për intervistën](#zgjidh-një-gjuhë-programimi-për-intervistën).
 
-Why code in all of these?
-- Practice, practice, practice, until I'm sick of it, and can do it with no problem (some have many edge cases and bookkeeping details to remember)
-- Work within the raw constraints (allocating/freeing memory without help of garbage collection (except Python or Java))
-- Make use of built-in types so I have experience using the built-in tools for real-world use (not going to write my own linked list implementation in production)
+Pse duhet t'i provoj të gjitha këto? Why code in all of these?
+- Praktiko, praktiko, praktiko, derisa ti të mërzitesh me të. Disa kanë raste speciale dhe duhet të mbash shënime për to.
+- Puno me menaxhimin e memories (pa ndihmën e garbage collection(përveç Java-s dhe Python))
+- Vër në punë tipet built-in që më vonë të kesh eksperiencë përdorimi në punën reale(nuk do ndërtosh implementimin e listave të lidhura në produksion).
 
-I may not have time to do all of these for every subject, but I'll try.
+Mund të mos kem kohë për ti parë të gjitha subjektet, por do përpiqem.
 
-You can see my code here:
+Mund të shohësh kodimin tim këtu:
  - [C](https://github.com/jwasham/practice-c)
  - [C++](https://github.com/jwasham/practice-cpp)
  - [Python](https://github.com/jwasham/practice-python)
 
-You don't need to memorize the guts of every algorithm.
+Nuk është nevoja të mbash mend brendësinë e çdo algoritmi.
 
-Write code on a whiteboard or paper, not a computer. Test with some sample inputs. Then test it out on a computer.
+Shkruaje kodin në tabelë të bardhë ose në letër, dhe jo në kompjuter. Provo me variabla të thjeshta inputi. Pastaj testoi në kompjuter.
 
 ## Prerequisite Knowledge
 
