@@ -541,16 +541,16 @@ Shkruaje kodin në tabelë të bardhë ose në letër, dhe jo në kompjuter. Pro
 <summary>Struktura e të Dhënave</summary>
 
 - ### Vektorët
-    - Implemento njw2 vektor qw2 ndryshon madhw2sinw2 e tij nw2 mw2nyrw2 automatike.
-    - [ ] Pw2rshkrimi:
-        - [Vektorw2t (video)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
-        - [UC Berkeley CS61B - Vektorw2t Linear dhe Multi-Dimensional (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Fillo qw2 nga minuta 15, sekonda 32)
-        - [Vektorw2 Bazikw2 (video)](https://archive.org/details/0102WhatYouShouldKnow/02_04-basicArrays.mp4)
-        - [Multi-Dimensionalw2 (video)](https://archive.org/details/0102WhatYouShouldKnow/02_05-multidimensionalArrays.mp4)
-        - [Vektorw2 Dinamikw2 (video)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
-        - [Vektorw2 tw2 copw2zuar(Jagged Arrays) (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
-        - [Vektorw2 tw2 copw2zuar (video)](https://archive.org/details/0102WhatYouShouldKnow/02_06-jaggedArrays.mp4)
-        - [Ndryshimi i pw2rmasave tw2 vektorw2ve (Resizing) (video)](https://archive.org/details/0102WhatYouShouldKnow/03_01-resizableArrays.mp4)
+    - Implemento një vektor që ndryshon madhësinë e tij në mënyrë automatike.
+    - [ ] Përshkrimi:
+        - [Vektorët (video)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
+        - [UC Berkeley CS61B - Vektorët Linear dhe Multi-Dimensional (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Fillo që nga minuta 15, sekonda 32)
+        - [Vektorë Bazikë (video)](https://archive.org/details/0102WhatYouShouldKnow/02_04-basicArrays.mp4)
+        - [Multi-Dimensionalë (video)](https://archive.org/details/0102WhatYouShouldKnow/02_05-multidimensionalArrays.mp4)
+        - [Vektorë Dinamikë (video)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
+        - [Vektorë të copëzuar(Jagged Arrays) (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
+        - [Vektorë të copëzuar (video)](https://archive.org/details/0102WhatYouShouldKnow/02_06-jaggedArrays.mp4)
+        - [Ndryshimi i përmasave të vektorëve (Resizing) (video)](https://archive.org/details/0102WhatYouShouldKnow/03_01-resizableArrays.mp4)
     - [ ] Implement a vector (mutable array with automatic resizing):
         - [ ] Practice coding using arrays and pointers, and pointer math to jump to an index instead of using indexing.
         - [ ] new raw data array with allocated memory
