@@ -83,7 +83,7 @@ Nëse do të bëhesh një inxhinier rrjeti ose sigurie, shiko nga lista opsional
 - [Plani Ditor](#plani-ditor)
 - [Kompleksiteti algoritmik / Big-O / Analiza asimptotike](#kompleksiteti-algoritmik--big-o--analiza-asimptotike)
 - [Struktura e të Dhënave](#struktura-e-të-dhënave)
-    - [Vektoret](#vektorët)
+    - [Vektorët](#vektorët)
     - [Listat e lidhura](#listat-e-lidhura)
     - [Stivat](#stivat)
     - [Radhët](#radhët)
@@ -236,10 +236,10 @@ Aktualisht është vënë në punë funksioni markdown i Github-it, përfshirë 
 
 ## Mos u ndje keq nëse ndihesh se nuk je mjaftueshëm i zgjuar
 - Inxhinierët e suksesshëm software janë të zotë, por edhe ata kanë pasiguritë e tyrë nëse kanë dije mjaftueshëm.
-- [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
-- [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
-- [Believe you can change](http://www.aaronsw.com/weblog/dweck)
-- [Think you're not smart enough to work at Google? Well, think again](https://www.youtube.com/watch?v=uPOJ1PR50ag)
+- [Miti i programuesit gjeni](https://www.youtube.com/watch?v=0SARbwvhupQ)
+- [Është e rrezikshme të vazhdosh vetëm: Duke luftuar pasiguritë në industrinë informatike](https://www.youtube.com/watch?v=1i8ylq4j_EY)
+- [Beso tek ndryshimi yt](http://www.aaronsw.com/weblog/dweck)
+- [Mendon se nuk je aq i aftë sa të punosh në Google? Mendoje edhe një herë.](https://www.youtube.com/watch?v=uPOJ1PR50ag)
 
 ## Rreth materialeve video shtesë
 
@@ -535,22 +535,22 @@ Shkruaje kodin në tabelë të bardhë ose në letër, dhe jo në kompjuter. Pro
 
 </details>
 
-## Data Structures
+## Struktura e të Dhënave
 
 <details>
-<summary>Data Structures</summary>
+<summary>Struktura e të Dhënave</summary>
 
-- ### Arrays
-    - Implement an automatically resizing vector.
-    - [ ] Description:
-        - [Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
-        - [UC Berkeley CS61B - Linear and Multi-Dim Arrays (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
-        - [Basic Arrays (video)](https://archive.org/details/0102WhatYouShouldKnow/02_04-basicArrays.mp4)
-        - [Multi-dim (video)](https://archive.org/details/0102WhatYouShouldKnow/02_05-multidimensionalArrays.mp4)
-        - [Dynamic Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
-        - [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
-        - [Jagged Arrays (video)](https://archive.org/details/0102WhatYouShouldKnow/02_06-jaggedArrays.mp4)
-        - [Resizing arrays (video)](https://archive.org/details/0102WhatYouShouldKnow/03_01-resizableArrays.mp4)
+- ### Vektorët
+    - Implemento njw2 vektor qw2 ndryshon madhw2sinw2 e tij nw2 mw2nyrw2 automatike.
+    - [ ] Pw2rshkrimi:
+        - [Vektorw2t (video)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
+        - [UC Berkeley CS61B - Vektorw2t Linear dhe Multi-Dimensional (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Fillo qw2 nga minuta 15, sekonda 32)
+        - [Vektorw2 Bazikw2 (video)](https://archive.org/details/0102WhatYouShouldKnow/02_04-basicArrays.mp4)
+        - [Multi-Dimensionalw2 (video)](https://archive.org/details/0102WhatYouShouldKnow/02_05-multidimensionalArrays.mp4)
+        - [Vektorw2 Dinamikw2 (video)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
+        - [Vektorw2 tw2 copw2zuar(Jagged Arrays) (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
+        - [Vektorw2 tw2 copw2zuar (video)](https://archive.org/details/0102WhatYouShouldKnow/02_06-jaggedArrays.mp4)
+        - [Ndryshimi i pw2rmasave tw2 vektorw2ve (Resizing) (video)](https://archive.org/details/0102WhatYouShouldKnow/03_01-resizableArrays.mp4)
     - [ ] Implement a vector (mutable array with automatic resizing):
         - [ ] Practice coding using arrays and pointers, and pointer math to jump to an index instead of using indexing.
         - [ ] new raw data array with allocated memory
