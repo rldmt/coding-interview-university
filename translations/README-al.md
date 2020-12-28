@@ -551,94 +551,94 @@ Shkruaje kodin në tabelë të bardhë ose në letër, dhe jo në kompjuter. Pro
         - [Vektorë të copëzuar(Jagged Arrays) (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
         - [Vektorë të copëzuar (video)](https://archive.org/details/0102WhatYouShouldKnow/02_06-jaggedArrays.mp4)
         - [Ndryshimi i përmasave të vektorëve (Resizing) (video)](https://archive.org/details/0102WhatYouShouldKnow/03_01-resizableArrays.mp4)
-    - [ ] Implement a vector (mutable array with automatic resizing):
-        - [ ] Practice coding using arrays and pointers, and pointer math to jump to an index instead of using indexing.
-        - [ ] new raw data array with allocated memory
-            - can allocate int array under the hood, just not use its features
-            - start with 16, or if starting number is greater, use power of 2 - 16, 32, 64, 128
-        - [ ] size() - number of items
-        - [ ] capacity() - number of items it can hold
-        - [ ] is_empty()
-        - [ ] at(index) - returns item at given index, blows up if index out of bounds
+    - [ ] Implementimi i një vektori (array i modifikueshëm në mënyrë automatike):
+        - [ ] Praktiko kodimin duke përdorur arrayt dhe pointerat, dhe logjikën matematike të pointerave për kërcimin tek një indeks në vend të përdorimit të indeksimit.
+        - [ ] array me të dhëna raw dhe memorie të alokuar
+            - mund të alokojë një array int, por jo featuret e tij
+            - fillo me 16 , ose në qoftë se numri është më i madh, përdor fuqitë e 2, 16, 32, 64, 128
+        - [ ] size() - numri i elementëve
+        - [ ] capacity() - numri i elementëve që mund të mbajë
+        - [ ] is_empty() - kontrollon nëse ka elementë
+        - [ ] at(index) - kthen elementin në indeksin e dhënë, dhe jep numër jashtë normales nëse kërkon të aksesojë një numër jashtë intervalit
         - [ ] push(item)
-        - [ ] insert(index, item) - inserts item at index, shifts that index's value and trailing elements to the right
-        - [ ] prepend(item) - can use insert above at index 0
-        - [ ] pop() - remove from end, return value
-        - [ ] delete(index) - delete item at index, shifting all trailing elements left
-        - [ ] remove(item) - looks for value and removes index holding it (even if in multiple places)
-        - [ ] find(item) - looks for value and returns first index with that value, -1 if not found
+        - [ ] insert(index, item) - shto elemntin tek indeksi, dhe vlerën e atij indeksi dhe elementët që vijnë më pas lëvizi në të djathtë
+        - [ ] prepend(element) - shto element në indeksin 0
+        - [ ] pop() - fshij nga fundi dhe kthe vlerën
+        - [ ] delete(index) - fshij elementin në indeks duke lëvizur të gjithë elementë e mbetur në të majtë
+        - [ ] remove(element) - kërko për vlerën dhe fshij indeksin që e përmban atë (edhe në rastet kur ka më shumë se një element)
+        - [ ] find(element) - kërko për vlerën  dhe kthe indeksin e parë me atë vlerë, -1 nëse nuk gjendet
         - [ ] resize(new_capacity) // private function
-            - when you reach capacity, resize to double the size
+            - kur arrin maksimumin e kapacitetit, zgjero në dyfishin e tij
             - when popping an item, if size is 1/4 of capacity, resize to half
-    - [ ] Time
-        - O(1) to add/remove at end (amortized for allocations for more space), index, or update
-        - O(n) to insert/remove elsewhere
-    - [ ] Space
-        - contiguous in memory, so proximity helps performance
-        - space needed = (array capacity, which is >= n) * size of item, but even if 2n, still O(n)
+    - [ ] Koha
+        - O(1) për shtimin/fshirjen në fund (amortizuar për të alokuar më shumë hapësirë), indeksim ose updatim
+        - O(n) për shtim/fshirje në vende të tjera
+    - [ ] Hapësira
+        - e vazhdueshme në memorie, në mënyrë që afërsia të rrië performancën
+        - hapësirë e nevojshme - (kapaciteti i array që është >= n) * madhwsinë e elementit, por edhe nës2 është 2n, prapë O(n) mbetet
 
-- ### Linked Lists
-    - [ ] Description:
+- ### Listat e lidhura
+    - [ ] Përshkrimi:
         - [ ] [Singly Linked Lists (video)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
         - [ ] [CS 61B - Linked Lists 1 (video)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
         - [ ] [CS 61B - Linked Lists 2 (video)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
     - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo)
-            - not the whole video, just portions about Node struct and memory allocation.
-    - [ ] Linked List vs Arrays:
+            - jo të gjithë videon, vetëm pjesëm për Node struct dhe alokimin e memories.
+    - [ ] Listat e lidhura vs Arrays:
         - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/rjBs9/core-linked-lists-vs-arrays)
         - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/QUaUd/in-the-real-world-lists-vs-arrays)
     - [ ] [why you should avoid linked lists (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
-    - [ ] Gotcha: you need pointer to pointer knowledge:
-        (for when you pass a pointer to a function that may change the address where that pointer points)
-        This page is just to get a grasp on ptr to ptr. I don't recommend this list traversal style. Readability and maintainability suffer due to cleverness.
+    - [ ] Të nevojitet një pointer për njohurinë mbi pointerat:
+        (kur kalon një pointer tek një funksion ajo mund të ndryshojë adresën ku pointeri shenjon)
+        Kjo faqe është thjesht prezantim se kalojmë nga ptr në ptr. Nuk e rekomandoj këtë lloj shëtitje të listës. Nuk është shumë i lexueshëm pavarësisht se është i shkurtër si kod. 
         - [Pointers to Pointers](https://www.eskimo.com/~scs/cclass/int/sx8.html)
-    - [ ] implement (I did with tail pointer & without):
-        - [ ] size() - returns number of data elements in list
-        - [ ] empty() - bool returns true if empty
-        - [ ] value_at(index) - returns the value of the nth item (starting at 0 for first)
-        - [ ] push_front(value) - adds an item to the front of the list
-        - [ ] pop_front() - remove front item and return its value
-        - [ ] push_back(value) - adds an item at the end
-        - [ ] pop_back() - removes end item and returns its value
-        - [ ] front() - get value of front item
-        - [ ] back() - get value of end item
-        - [ ] insert(index, value) - insert value at index, so current item at that index is pointed to by new item at index
-        - [ ] erase(index) - removes node at given index
-        - [ ] value_n_from_end(n) - returns the value of the node at nth position from the end of the list
-        - [ ] reverse() - reverses the list
-        - [ ] remove_value(value) - removes the first item in the list with this value
-    - [ ] Doubly-linked List
-        - [Description (video)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
-        - No need to implement
+    - [ ] implemento (me tail pointer dhe pa atë):
+        - [ ] size() - kthe numrin e elementëve në listë
+        - [ ] empty() - bool kthe trye nëse është bosh
+        - [ ] value_at(index) - kthen vlerën e elementit të n-të (duke filluar nga 0 si indeks fillestar)
+        - [ ] push_front(element) - shto një element në krye të listës 
+        - [ ] pop_front() - hiq një element nga fillimi i listës dhe kthe vlerën e tij
+        - [ ] push_back(element) - shto një element në fund
+        - [ ] pop_back() - hiq një element nga fundit dhe kthe vlerën e tij
+        - [ ] front() - merr vlerën e elementit nga fillimi i listës
+        - [ ] back() - mer vlerën e elementit në fund të listës
+        - [ ] insert(index, vlera) - insert vlerën tek index, në mënyrë që elementi aktual të shenjojë tek një element i ri në atë indeks
+        - [ ] erase(index) - hiq nyjën tek indeksi i dhënë
+        - [ ] value_n_from_end(n) - kthe vlerën e nyjes në pozicionin n nga fundi i listës
+        - [ ] reverse() - kthe së mbrapsht listën
+        - [ ] remove_value(element) - hiq elementin e parë në listën me këtë vlerë
+    - [ ] Listat e lidhura dyfishe
+        - [Përshkrimi (video)](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
+        - Nuk është nevoja për implementim
 
-- ### Stack
-    - [ ] [Stacks (video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
-    - [ ] [Using Stacks Last-In First-Out (video)](https://archive.org/details/0102WhatYouShouldKnow/05_01-usingStacksForLast-inFirst-out.mp4)
-    - [ ] Will not implement. Implementing with array is trivial.
+- ### Stivat
+    - [ ] [Stivat (video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
+    - [ ] [Përdorimi i Stivave Last-In First-Out (video)](https://archive.org/details/0102WhatYouShouldKnow/05_01-usingStacksForLast-inFirst-out.mp4)
+    - [ ] Nuk do implementohen. Implementimi me array është bazik.
 
-- ### Queue
-    - [ ] [Using Queues First-In First-Out(video)](https://archive.org/details/0102WhatYouShouldKnow/05_03-usingQueuesForFirst-inFirst-out.mp4)
-    - [ ] [Queue (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
+- ### Radhët
+    - [ ] [Përdorimi i Radhëve First-In First-Out(video)](https://archive.org/details/0102WhatYouShouldKnow/05_03-usingQueuesForFirst-inFirst-out.mp4)
+    - [ ] [Radhët (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
     - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
-    - [ ] [Priority Queues (video)](https://archive.org/details/0102WhatYouShouldKnow/05_04-priorityQueuesAndDeques.mp4)
-    - [ ] Implement using linked-list, with tail pointer:
-        - enqueue(value) - adds value at position at tail
-        - dequeue() - returns value and removes least recently added element (front)
+    - [ ] [Radhët me Prioritet (video)](https://archive.org/details/0102WhatYouShouldKnow/05_04-priorityQueuesAndDeques.mp4)
+    - [ ] Implementimi duke përdorur listat e lidhura, me pointerat tail:
+        - enqueue(element) - shto elementët në fund të radhës
+        - dequeue() - kthe vlerën dhe hiq elementine shtuar së fundmi (fillim)
         - empty()
-    - [ ] Implement using fixed-sized array:
-        - enqueue(value) - adds item at end of available storage
-        - dequeue() - returns value and removes least recently added element
+    - [ ] Implemento duke përdorur array me madhësi fikse:
+        - enqueue(element) - shto elemnt në fund
+        - dequeue() - kthe vlerën dhe hiq elementine shtuar së fundmi
         - empty()
         - full()
-    - [ ] Cost:
-        - a bad implementation using linked list where you enqueue at head and dequeue at tail would be O(n)
-            because you'd need the next to last element, causing a full traversal each dequeue
-        - enqueue: O(1) (amortized, linked list and array [probing])
-        - dequeue: O(1) (linked list and array)
-        - empty: O(1) (linked list and array)
+    - [ ] Kostoja:
+        - një implementim i keq ku janë përdorur listat e lidhura ku heq nga radha nga koka dhe shton në radhë nga bishti do kishte koston O(n)
+            sepse duhen tw gjithë elementët për çdo radhitje.
+        - enqueue: O(1) (e amortizuar, listat e lidhura dhe array [probing])
+        - dequeue: O(1) (listat e lidhura dhe array)
+        - empty: O(1) (listat e lidhura dhe array)
 
-- ### Hash table
-    - [ ] Videos:
+- ### Tabelat Hash
+    - [ ] Video:
         - [ ] [Hashing with Chaining (video)](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
         - [ ] [Table Doubling, Karp-Rabin (video)](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
         - [ ] [Open Addressing, Cryptographic Hashing (video)](https://www.youtube.com/watch?v=rvdJDijO2Ro&index=10&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
@@ -646,45 +646,45 @@ Shkruaje kodin në tabelë të bardhë ose në letër, dhe jo në kompjuter. Pro
         - [ ] [(Advanced) Randomization: Universal & Perfect Hashing (video)](https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11)
         - [ ] [(Advanced) Perfect hashing (video)](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
 
-    - [ ] Online Courses:
-        - [ ] [Understanding Hash Functions (video)](https://archive.org/details/0102WhatYouShouldKnow/06_02-understandingHashFunctions.mp4)
-        - [ ] [Using Hash Tables (video)](https://archive.org/details/0102WhatYouShouldKnow/06_03-usingHashTables.mp4)
-        - [ ] [Supporting Hashing (video)](https://archive.org/details/0102WhatYouShouldKnow/06_04-supportingHashing.mp4)
-        - [ ] [Language Support Hash Tables (video)](https://archive.org/details/0102WhatYouShouldKnow/06_05-languageSupportForHashTables.mp4)
-        - [ ] [Core Hash Tables (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables)
-        - [ ] [Data Structures (video)](https://www.coursera.org/learn/data-structures/home/week/3)
+    - [ ] Kurse Online:
+        - [ ] [Kuptimi i tabelave Hash (video)](https://archive.org/details/0102WhatYouShouldKnow/06_02-understandingHashFunctions.mp4)
+        - [ ] [Përdorimi i tabelave Hash (video)](https://archive.org/details/0102WhatYouShouldKnow/06_03-usingHashTables.mp4)
+        - [ ] [Përdorimi i Hash (video)](https://archive.org/details/0102WhatYouShouldKnow/06_04-supportingHashing.mp4)
+        - [ ] [Tabelat Hash për gjuhët (video)](https://archive.org/details/0102WhatYouShouldKnow/06_05-languageSupportForHashTables.mp4)
+        - [ ] [Tabelat Hash Themeltare (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/m7UuP/core-hash-tables)
+        - [ ] [Strukturat e të dhënave (video)](https://www.coursera.org/learn/data-structures/home/week/3)
         - [ ] [Phone Book Problem (video)](https://www.coursera.org/learn/data-structures/lecture/NYZZP/phone-book-problem)
-        - [ ] distributed hash tables:
+        - [ ] tabelat hash të shpërndara:
             - [Instant Uploads And Storage Optimization In Dropbox (video)](https://www.coursera.org/learn/data-structures/lecture/DvaIb/instant-uploads-and-storage-optimization-in-dropbox)
             - [Distributed Hash Tables (video)](https://www.coursera.org/learn/data-structures/lecture/tvH8H/distributed-hash-tables)
 
     - [ ] implement with array using linear probing
-        - hash(k, m) - m is size of hash table
-        - add(key, value) - if key already exists, update value
+        - hash(k, m) - m është madhësia e tabelave hash
+        - add(key, value) - nëse çelësi ekziston, updato vlerën
         - exists(key)
         - get(key)
         - remove(key)
 
 </details>
 
-## More Knowledge
+## Më Shumë Njohuri
 
 <details>
-<summary>More Knowledge</summary>
+<summary>Më Shumë Njohuri</summary>
 
-- ### Binary search
-    - [ ] [Binary Search (video)](https://www.youtube.com/watch?v=D5SrAga1pno)
-    - [ ] [Binary Search (video)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
+- ### Kërkimi Binar
+    - [ ] [Kërkimi Binar (video)](https://www.youtube.com/watch?v=D5SrAga1pno)
+    - [ ] [Kërkimi Binar (video)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
     - [ ] [detail](https://www.topcoder.com/community/competitive-programming/tutorials/binary-search/)
-    - [ ] Implement:
-        - binary search (on sorted array of integers)
-        - binary search using recursion
+    - [ ] Implemento:
+        - kërkimin binar (në array me integer të radhitur)
+        - kërkimin binar me anë të rekursionit
 
-- ### Bitwise operations
+- ### Operacionet Bitwise
     - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
-    - [ ] Get a really good understanding of manipulating bits with: &, |, ^, ~, >>, <<
+    - [ ] Mundohu ta kuptosh shumë mirë manipulimin e biteve duke përdorur: &, |, ^, ~, >>, <<
         - [ ] [words](https://en.wikipedia.org/wiki/Word_(computer_architecture))
-        - [ ] Good intro:
+        - [ ] Intro e mirë:
             [Bit Manipulation (video)](https://www.youtube.com/watch?v=7jkIUgLC29I)
         - [ ] [C Programming Tutorial 2-10: Bitwise Operators (video)](https://www.youtube.com/watch?v=d0AwjSpNXR0)
         - [ ] [Bit Manipulation](https://en.wikipedia.org/wiki/Bit_manipulation)
@@ -709,32 +709,32 @@ Shkruaje kodin në tabelë të bardhë ose në letër, dhe jo në kompjuter. Pro
 
 </details>
 
-## Trees
+## Pemët
 
 <details>
-<summary>Trees</summary>
+<summary>Pemët</summary>
 
-- ### Trees - Notes & Background
+- ### Pemët - Shënime & Bazat
     - [ ] [Series: Core Trees (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees)
     - [ ] [Series: Trees (video)](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
-    - basic tree construction
-    - traversal
-    - manipulation algorithms
+    - ndërtimi bazik i pemëve
+    - shëtitja
+    - algoritmat e manipulimit
     - [ ] [BFS(breadth-first search) and DFS(depth-first search) (video)](https://www.youtube.com/watch?v=uWL6FJhq5fM)
         - BFS notes:
            - level order (BFS, using queue)
-           - time complexity: O(n)
-           - space complexity: best: O(1), worst: O(n/2)=O(n)
+           - kompleksiteti i kohës: O(n)
+           - kompleksiteti i hapësirës: mirë: O(1), keq: O(n/2)=O(n)
         - DFS notes:
-            - time complexity: O(n)
-            - space complexity:
-                best: O(log n) - avg. height of tree
-                worst: O(n)
+            - kompleksiteti i kohës: O(n)
+            - kompleksiteti i hapësirës:
+                mirë: O(log n) - gjatësia mesatare e pemëve
+                keq: O(n)
             - inorder (DFS: left, self, right)
             - postorder (DFS: left, right, self)
             - preorder (DFS: self, left, right)
 
-- ### Binary search trees: BSTs
+- ### Pemët e kërkimit binare: BSTs
     - [ ] [Binary Search Tree Review (video)](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
     - [ ] [Series (video)](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/p82sw/core-introduction-to-binary-search-trees)
         - starts with symbol table and goes through BST applications
